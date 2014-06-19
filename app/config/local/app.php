@@ -1,6 +1,6 @@
 <?php
 
-$config = require '../app.php';
+$config = require __DIR__ . '/../app.php';
 
 return array(
 
@@ -18,7 +18,7 @@ return array(
 	'debug' => true,
 
 	'providers' => array_merge($config['providers'], array(
-		
+
 	)),
 	'aliases' => array_merge($config['aliases'], array(
 

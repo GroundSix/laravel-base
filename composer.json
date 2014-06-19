@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.2.*",
-		"pda/pheanstalk": "dev-master",
+		"pda/pheanstalk": "2.0.*",
 		"barryvdh/laravel-twigbridge": "0.3.*",
 		"aws/aws-sdk-php-laravel": "1.*",
 		"hipchat/hipchat-php" : "1.*",
